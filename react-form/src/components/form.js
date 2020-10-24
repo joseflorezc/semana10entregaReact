@@ -2,8 +2,7 @@ import React from 'react';
 import useForm from "../customHooks/useForm";
 import validateForm from "../utils/validateForm";
 
-
-const SignForm = (props) => {
+const Form = (props) => {
 
     const {handleChange, handleSubmit, errors} = useForm(props,validateForm);
     // console.log(errors); 
@@ -57,4 +56,4 @@ const SignForm = (props) => {
     
 }
 
-export default SignForm;
+export default Form;

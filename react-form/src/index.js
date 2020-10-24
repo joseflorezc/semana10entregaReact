@@ -1,24 +1,29 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import SignForm from "./components/signForm";
+import Forms from "./components/forms";
 
-    const datosUsuario ={
+//     const datos = {
+        
+//         datosUsuario :[{
     
-    usuario:"username", 
-    usuarioPlaceholder:"Username",
-    usuarioTipo:"text" 
-    } 
+//     usuario:"username", 
+//     usuarioPlaceholder:"Username",
+//     usuarioTipo:"text" 
+//     } ],
 
-    const datosPass = {
-    password:"password", 
-    passwordPlaceholder:"Password",
-    passwordTipo:"password" 
-    }
+//      datosPass :[ {
+//     password:"password", 
+//     passwordPlaceholder:"Password",
+//     passwordTipo:"password" 
+//     }],
 
-    const datosConfPass = {
-        confPassword:"confirmPassword", 
-        passwordPlaceholder:"Confirm Password",
-        passwordTipo:"password" 
-    }
+//      datosConfPass :[ {
+//         confPassword:"confirmPassword", 
+//         passwordPlaceholder:"Confirm Password",
+//         passwordTipo:"password" 
+//     }]
+// }
+//
 
-ReactDOM.render(<SignForm dataUs={datosUsuario} dataPas={datosPass} dataConf={datosConfPass}/>, document.getElementById("root"));
+// dataUs={datosUsuario} dataPas={datosPass} dataConf={datosConfPass}
+ReactDOM.render(<Forms />, document.getElementById("root"));
